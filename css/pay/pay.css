@@ -1,0 +1,104 @@
+/*导航栏头部开始*/
+.pay_title{
+	background-color: white;
+	border-bottom: 1px solid #d5d5d5;
+	padding: 0.8em;
+	width: 100%;
+}
+.pay_title span:first-child{
+	display: inline-block;
+}
+.pay_title img{
+	width: 1.2em;
+	height: 1.2em;
+	vertical-align: middle;
+}
+.pay_title span:last-child{
+	margin-left: 0.3em;
+	display: inline-block;
+	font-size: 1.2em;
+	vertical-align: middle;
+	font-weight: bold;
+	margin: 0 35.5%;
+}
+/*导航栏结束*/
+/*付款详细开始*/
+.pay_money{
+	position: relative;
+}
+.pay_money_1{
+	position: absolute;
+	top: 20%;
+	left: 25%;
+}
+.pay_money p{
+	margin-bottom: 0;
+	border-bottom: 1px dashed #B6B6B6;
+}
+.pay_money p:first-child{
+	font-size: 1.5em;
+	display: inline;
+}
+.pay_money p:last-child{
+	
+}
+/*付款详细结束*/
+/*支付方式开始*/
+.pay_method{
+	background-color: white;
+	padding: 0.8em;
+	margin-top: 0.8em;
+	border-top: 1px solid #e4e4e4;
+}
+.pay_method_content{
+	line-height: 1.1em;
+	padding-top: 1em;
+	border-bottom: 1px solid #F6F6F6;
+}
+.pay_method_content p{
+	display: inline-block;
+	margin-left: 4%;
+}
+.pay_method_content p>span{
+	display: block;
+}
+.pay_method_content p>span:last-child{
+	font-size: 0.8em;
+	color: #9a9a9a;
+}
+.pay_method_content span:first-child img{
+	width: 2em;
+	height: 2em;
+	float: left;
+}
+.pay_method_content span:last-child img{
+	float: right;
+	vertical-align: middle;
+}
+/*支付方式结束*/
+footer{
+	margin: 0.8em 0;
+	width: 100%;
+	
+}
+.order_sumbit{
+	background-color: #ff9900;
+	color: white;
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 1px;
+	padding: 0.8em 0;
+}
+.order_sumbit a{
+	display: block;
+	font-size: 1.5em;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	color: white;
+}
+.order_sumbit a:hover,.order_sumbit a:focus{
+	text-decoration: none;
+	color: white;
+}

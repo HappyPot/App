@@ -1,0 +1,42 @@
+#QR{
+	position: fixed;
+	top: 4.5em;
+	right: 1.5em;
+	background-color: #63666b;
+	z-index: 99999;
+	border: 1px solid #DEDEDE;
+	padding: 0.5em 1em;
+	border-radius: 3px;
+	display: none;
+}
+#QR .glyphicon{
+	color: white;
+	font-size: 1.5em;
+	vertical-align: middle;
+	margin-right: 0.5em;
+}
+#QR div{
+	line-height: 2em;
+	padding-bottom: 0.5em;
+}
+.QR{
+	border-bottom: 1px solid #DEDEDE;
+}
+.QR a:last-child{
+	font-size: 1.2em;
+	vertical-align: middle;
+	text-decoration: none;
+	color: white;
+}
+.QR a:last-child:hover,.QR a:last-child:focus{
+	text-decoration: none;
+	color: white;
+}
+.pay{
+	padding-top: 0.5em;
+}
+.pay span:last-child{
+	font-size: 1.2em;
+	vertical-align: middle;
+	color: white;
+}

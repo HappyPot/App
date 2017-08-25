@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>确认订单</title>
+		<link rel="stylesheet" type="text/css" href="css/index/common.css"/>
+		<link rel="stylesheet" href="css/order/order.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+		<script src="js/index/jquery-3.1.0.min.js"></script>
+		<script src="js/index/angularjs.js"></script>
+		<script src="js/order/order.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body ng-controller="order">
+		<div id="order">
+			<nav class="order_title">
+				<span><img src="img/green_back.png" alt="" /></span>
+				<span class="">确认订单</span>
+			</nav>
+			<article>
+				<!--订单内容第一部分-->
+				<div class="order_content_1">
+					<p class="order_content_common">
+						<span class="">BoomBoom肉蟹煲单人券</span>
+						<span class="">￥97</span>
+					</p>
+					<p class="order_content_common" id="number">
+						<span class="">数量</span>
+						<span class="">
+							<b id="reduce" ng-click="reduce()" ng-disabled="flag == 1">-</b>
+							<input type="number" ng-model="count"/>
+							<b id="add" ng-click="add()">+</b>
+						</span>
+					</p>
+					<p class="order_content_common">
+						<span class="">小计</span>
+						<span class="total" ng-bind="'￥'+price*count"></span>
+					</p>
+				</div>
+				<!--订单内容第二部分-->
+				<div class="order_content_1">
+					<p class="order_content_common">
+						<span class="">选择优惠活动</span>
+						<span class="empty"></span>
+					</p>
+					<p class="order_content_benefit">
+						<span>减</span>
+						商家新客立减12元，每人限购4张
+						<img src="img/green_cricle.png" alt="" />
+					</p>
+				</div>
+				<!--订单内容第三部分-->
+				<div class="order_content_1">
+					<p class="order_content_common">
+						<span class="">抵用券</span>
+						<span class="total">使用抵用券</span>
+					</p>
+					<p class="order_content_common">
+						<span class="center">使用积分 <img src="img/help.png" alt="" /></span>
+						<span>
+							本单不可用积分抵扣
+							<small class="empty">现有积分456</small>
+						</span>
+					</p>
+					<p id="total_price">
+						<span class="center_i">订单总价 </span>
+						<span class="total_price_right">
+							<span class="total" ng-bind="'￥'+(price*count-rPrice)"></span>
+							<span class="total">(已优惠￥12)</span>
+						</span>
+						
+					</p>
+				</div>
+				<!--订单内容第四部分-->
+				<div class="order_content_1">
+					<p class="order_content_common">
+						<span class="">您绑定的手机号码</span>
+						<span class=""></span>
+					</p>
+					<p class="order_content_common">
+						<span class="">156****9651</span>
+						<span class="total">绑定新号码</span>
+					</p>
+				</div>
+			</article>
+			<footer>
+				<div class="order_sumbit">
+						<span>提交订单</span>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

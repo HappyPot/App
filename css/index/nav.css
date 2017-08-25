@@ -1,0 +1,57 @@
+nav{
+	background-color: #08c2ac;
+	color: white;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	/*height: 5em;
+	line-height: 2em;*/
+}
+.geolocaltion{
+	width: 18%;
+	display: inline-block;
+	text-align: center;
+	margin-right: 0.35em;
+}
+.glyphicon-chevron-down{
+	vertical-align: text-top;
+}
+.search{
+	width: 60%;
+	display: inline-block;
+	margin: 0 auto;
+}
+.search input{
+	width: 100%;
+	padding-top: 1em;
+	padding-left: 2.1em;
+	padding-right: 0.2em;
+	border-radius: 5.7em;
+	color: #333333;
+	border: none;
+	line-height: 1em;
+}
+.Ecode{
+	/*width: calc(100% - 50% - 15%);*/
+	display: inline-block;
+	margin-left: 0.3em;
+	height: 2em;
+	vertical-align: middle;
+}
+.glyphicon-qrcode{
+	font-size: 1.5em;
+	/*vertical-align: text-bottom;*/
+}
+.message{
+	display: inline-block;
+	margin-left: 0.9em;
+	height: 2em;
+	vertical-align: middle;
+}
+.glyphicon-envelope{
+	font-size: 1.5em;
+}

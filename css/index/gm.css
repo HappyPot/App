@@ -1,0 +1,32 @@
+#gm{
+	background-color: white;
+	margin-bottom: 0.7em;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+}
+.gm_left{
+	display: inline-block;
+	color: #81b2ef;
+	border-right: 1px solid #EDEDED;
+	width: 12%;
+	padding-right: 0.35em;
+}
+.gm_left p{
+	margin: 0;
+	font-weight: bold;
+}
+.gm_right{
+	display: inline-block;
+	padding-left: 0.4em;
+}
+.gm_right a{
+	text-decoration: none;
+	color: #3c3c3c;
+}
+.middle{
+	color: #81b2ef;
+}
+.display_1{
+	display: none;
+}
+

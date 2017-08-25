@@ -1,0 +1,56 @@
+/*滑动菜单开始*/
+#first_row{
+	padding-top: 1em;
+}
+#last_row{
+	padding-top: 1em;
+}
+.swiper-container p{
+	font-size: 0.67em !important;
+}
+.wl_menu{
+	background-color: white;
+	margin-bottom: 2.1em;
+}
+.wl_menu_icon_1{
+	display: inline-block;
+	margin: 0 0.4em;
+	width: 3.8em;
+	height: 4.28em;
+}
+.wl_menu_icon_1 a{
+	display: inline-block;
+	background: url(../../img/img.png) no-repeat;
+	background-size:2.5em 50em;
+}
+.wl_icon_main{
+	width: 2.5em;
+	height: 2.5em;
+	background-position: -0.07em -26.1em;
+}
+.swiper-pagination{
+	background-color: white;
+}
+#Iicon .life{height:2.5em;width:2.5em;background-position:0 0;}
+#Iicon .movie{height:2.5em;width:2.5em;background-position:0 -2.5em;}
+#Iicon .ktv{height:2.5em;width:2.5em;background-position:0 -5em;}
+#Iicon .hotspring{height:2.5em;width:2.5em;background-position:0 -7.5em;}
+#Iicon .journey{height:2.5em;width:2.5em;background-position:0 -10em;}
+#Iicon .take-out{height:2.5em;width:2.5em;background-position:0 -12.5em;}
+#Iicon .ticket{height:2.5em;width:2.5em;background-position:0 -15em;}
+#Iicon .sports{height:2.5em;width:2.5em;background-position:0 -17.5em;}
+#Iicon .pedicure{height:2.5em;width:2.5em;background-position:0 -20em;}
+#Iicon .room{height:2.5em;width:2.5em;background-position:0 -22.5em;}
+#Iicon .beauty{height:2.5em;width:2.5em;background-position:0 -25em;}
+#Iicon .beauty_body{height:2.5em;width:2.5em;background-position:0 -27.5em;}
+#Iicon .bath{height:2.5em;width:2.5em;background-position:0 -30em;}
+#Iicon .allkinds{height:2.5em;width:2.5em;background-position:0 -32.5em;}
+#Iicon .Attractions{height:2.5em;width:2.5em;background-position:0 -35em;}
+#Iicon .hair{height:2.5em;width:2.5em;background-position:0 -37.5em;}
+#Iicon .hotel{height:2.5em;width:2.5em;background-position:0 -40em;}
+#Iicon .food{height:2.5em;width:2.5em;background-position:0 -42.5em;}
+#Iicon .entertainment{height:2.5em;width:2.5em;background-position:0 -45em;}
+#Iicon .fingernail{height:2.5em;width:2.5em;background-position:0 -47.5em;}
+@media only screen and (max-device-width : 568px) {
+	
+}

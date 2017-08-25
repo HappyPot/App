@@ -1,0 +1,23 @@
+#cut_off{
+	line-height: 1em;
+	width: 76%;
+	margin: 0.7em auto 0 auto;
+}
+#cut_off p{
+	display: inline-block;
+	color: #333333;
+}
+#cut_off small{
+	display: inline-block;
+	width: 32%;
+	height: 1px;
+	border-top: 1px solid #9a9a9a;
+	vertical-align: middle;
+	margin: 0 0.3em;
+}
+#cut_off span{
+	margin-right: 0.1em;
+	color: #ff2244;
+	line-height: 0.8em;
+	vertical-align: top;
+}

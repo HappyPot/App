@@ -1,0 +1,8 @@
+#foodbanner{
+	z-index: -1;
+}
+#foodbanner .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    }

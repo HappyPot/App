@@ -1,0 +1,162 @@
+#order{
+	color: #5c5c5c;
+}
+.order_title{
+	background-color: white;
+	border-bottom: 1px solid #d5d5d5;
+	padding: 0.8em;
+	width: 100%;
+}
+.order_title span:first-child{
+	display: inline-block;
+}
+.order_title img{
+	width: 1.2em;
+	height: 1.2em;
+	vertical-align: middle;
+}
+.order_title span:last-child{
+	margin-left: 0.3em;
+	display: inline-block;
+	font-size: 1.2em;
+	vertical-align: middle;
+	font-weight: bold;
+	margin: 0 36%;
+}
+/*订单01开始*/
+.order_content_1{
+	background-color: white;
+	margin-top: 0.7em;
+	border-top: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+}
+.order_content_common{
+	padding: 0.8em 1em;
+	border-bottom: 1px solid #f6f6f6;
+	margin-bottom: 0;
+}
+.order_content_common span:first-child{
+	display: inline-block;
+	font-size: 1.2em;
+	width: 58%;
+}
+.order_content_common span:last-child{
+	display: inline-block;
+	font-size: 1.1em;
+	width: 39%;
+	text-align: right;
+}
+.order_content_common span:last-child b{
+	width: 1.8em;
+	height: 1.9em;
+	display: inline-block;
+	border: 1px solid #dbdbdb;
+	text-align: center;
+	font-size: 1em;
+	color: #2bcaba;
+	padding-top: 0.3em;
+}
+.order_content_common span:last-child b:first-child{
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+	vertical-align: middle;
+}
+.order_content_common span:last-child b:last-child{
+	border-top-right-radius:3px;
+	border-bottom-right-radius:3px;
+	vertical-align: middle;
+}	
+.order_content_common span:last-child input{
+	width: 2em;
+	height: 1.9em;
+	outline: none;
+	border: 1px solid #dbdbdb;
+	margin: 0 -0.55em 0 -0.4em;
+	vertical-align: middle;
+	padding-left: 0.5em;
+	display: inline-block;
+	vertical-align: middle;
+}
+/*选择优惠活动样式*/
+.order_content_benefit{
+	border-bottom: 1px solid #f6f6f6;
+	padding: 0.8em 1em;
+	margin-bottom: 0;
+	color: #5c5c5c;
+	font-size: 1.1em;
+}
+.order_content_benefit span:first-child{
+	background-color: #ff9e05;
+	color: white;
+	font-size: 1.1em;
+	padding: 0.1em;
+	text-align: center;
+	border: 1px solid #ff9e05;
+	border-radius: 2px;
+	margin-right: 0.5em;
+}
+.order_content_benefit img{
+	font-size: 1em;
+	float: right;
+}
+/*订单总价与优惠信息开始*/
+#total_price{
+	padding: 0.8em 1em;
+	border-bottom: 1px solid #f6f6f6;
+	margin-bottom: 0;
+}
+.center_i{
+	display: inline-block;
+	font-size: 1.2em;
+	width: 59%;
+}
+.total_price_right{
+	display: inline-block;
+	width: 40%;
+	text-align: right;
+}
+.total_price{
+	
+}
+/*订单总价与优惠信息结束*/
+/*以下是根据个别需求为脚本调用提供的样式*/
+/*优惠券暂无可用样式*/
+.empty{
+	color: #a3a3a3;
+}
+.empty_small{
+	font-size: 0.8em;
+	color: #a3a3a3;
+}
+/*订单总价样式*/
+.total{
+	color: #ec5532;
+}
+.center{
+	vertical-align: top;
+	line-height: 2.5em;
+}
+/*以上是根据个别需求为脚本调用提供的样式*/
+/*订单01结束*/
+/*底部样式*/
+footer{
+	margin: 0.8em 0;
+	width: 100%;
+	
+}
+.order_sumbit{
+	background-color: #ff9900;
+	color: white;
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 1px;
+	padding: 0.8em 0;
+}
+.order_sumbit span{
+	display: block;
+	font-size: 1.5em;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+

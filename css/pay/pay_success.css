@@ -1,0 +1,80 @@
+/*导航栏头部开始*/
+.pay_success_title{
+	background-color: white;
+	border-bottom: 1px solid #d5d5d5;
+	padding: 0.8em;
+	width: 100%;
+}
+.pay_success_title span:first-child{
+	display: inline-block;
+}
+.pay_success_title img{
+	width: 1.2em;
+	height: 1.2em;
+	vertical-align: middle;
+}
+.pay_success_title span:last-child{
+	margin-left: 0.3em;
+	display: inline-block;
+	font-size: 1.2em;
+	vertical-align: middle;
+	font-weight: bold;
+	margin: 0 35.5%;
+}
+/*导航栏结束*/
+/*付款详细开始*/
+.pay_success_money{
+	background-image: url(../../img/pay_success_02.png);
+}
+.pay_success_money_1{
+	width: 40%;
+	margin: 0 auto;
+	padding:  1em 0;
+	text-align: center;
+}
+.pay_success_money_1 img{
+	width: 2em;
+	height: 2em;s
+}
+.pay_success_money p{
+	font-size: 1.2em;
+	margin-top: 0.5em;
+	margin-bottom: 0;
+	border-bottom: 1px dashed #B6B6B6;
+}
+.pay_success_money p:first-child{
+	font-size: 1.5em;
+	display: inline;
+}
+.pay_success_money p:last-child{
+	
+}
+/*付款详细结束*/
+footer{
+	margin: 0.8em auto;
+	width: 100%;
+	text-align: center;
+}
+.order_sumbit{
+	display: inline-block;
+	background-color: #08c2ac;
+	color: white;
+	width: 40%;
+	margin-right: 0.3em;
+	border-radius: 1px;
+	padding: 0.4em 0;
+	text-align: center;
+}
+.order_sumbit a{
+	display: inline-block;
+	font-size: 1.2em;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	color: white;
+}
+.order_sumbit a:hover{
+	text-decoration: none;
+	color: white;
+}

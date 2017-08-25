@@ -1,0 +1,159 @@
+#home_order{
+	
+}
+/*导航头部开始*/
+.home_order_title{
+	padding: 0.8em;
+	background-color: white;
+	border-bottom: 1px solid #e1e1e1;
+	width: 100%;
+	text-align: center;
+}
+.home_order_title span{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+/*导航头部结束*/
+/*订单功能开始*/
+.home_order_i{
+	padding: 0.8em;
+	background-color: white;
+	/*border-bottom: 1px solid red;*/
+}
+.home_order_i_title{
+	border-bottom: 1px solid #F6F6F6;
+	padding-bottom: 0.6em;
+}
+.home_order_i_title span,.home_order_i_title a{
+	display: inline-block;
+	vertical-align: middle;
+}
+.home_order_i_title span{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.home_order_i_title a{
+	color: #c3c3c3;
+	float: right;
+}
+.home_order_i_title a img{
+	width: 0.5em;
+	height: 0.8em;
+	padding-bottom: 0.2em
+}
+/*功能图标开始*/
+.home_order_i_content_1{
+	width: 24%;
+	padding: 1em 1em 0 1em;
+	text-align: center;
+	display: inline-block;
+}
+.home_order_i_content_1:hover,.home_order_i_content_1:focus{
+	color: #333;
+	text-decoration: none;
+}
+.home_order_i_content_1 img{
+	width: 2em;
+	height: 2em;
+	margin-bottom: 0.1em;
+}
+.home_order_i_content_1 p{
+	margin-bottom: 0;
+	font-size: 0.8em;
+}
+/*功能图标结束*/
+/*订单功能结束*/
+/*最近订单分割线处开始*/
+.home_order_cut{
+	color: #c3c3c3;
+	font-weight: bold;
+	padding: 0.3em 0.8em;
+}
+/*最近订单分割线处结束*/
+/*订单主体开始*/
+.home_order_content a{
+	display: block;
+	text-decoration: none;
+}
+.home_order_content_1{
+	background-color: white;
+	color: #6d6d6d;
+	padding: 1em 0.8em;
+	border-bottom: 1px solid #F6F6F6;
+}
+.home_order_content_1 img{
+	border-radius: 3px;
+}
+.home_order_content_1 p{
+	margin-bottom: 0;
+}
+.home_order_content_1_float{
+	float: right;
+	color: #61d8cc;
+}
+.home_order_content .col-xs-2{
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.home_order_content .col-xs-10{
+	padding-left: 0.7em !important;
+}
+.home_order_cell_1 span:first-child{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.home_order_cell_2{
+	color: #b7b7b7;
+}
+.home_order_cell_3{
+	color: #b7b7b7;
+}
+/*订单主体结束*/
+/*更多样式开始*/
+.i{
+	text-align: center;
+}
+.i img{
+	width: 1em;
+	height: 0.5em;
+}
+.home_order_more{
+	display: inline-block;
+	color: #61d8cc;
+	font-size: 1.2em;
+	font-weight: bold;
+	vertical-align: middle;
+}
+/*更多样式结束*/
+/*底部开始*/
+#fix_footer{
+	border-top: 1px solid #b8b8b8;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #ffffff;
+	width: 100%;
+	height: 3.5em;
+	z-index: 1;
+}
+#fix_footer a{
+	display: inline-block;
+	text-decoration: none;
+	color: #333;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+#fix_footer a img{
+	margin: 0 auto;
+	width: 1.5em;
+	height: 1.5em;
+}
+#fix_footer a span{
+	color: #b8b8b8;
+	font-size: 0.8em;
+}
+/*底部结束*/
+
+

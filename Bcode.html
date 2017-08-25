@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>支付订单</title>
+		<link rel="stylesheet" type="text/css" href="css/index/common.css"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+		<script src="js/index/jquery-3.1.0.min.js"></script>
+		<script src="js/index/angularjs.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" >
+			document.addEventListener( "plusready",function(){
+				startScan();
+			});
+			var scan = null;
+			function onmarked( type, result ) {
+				var text = '未知: ';
+				switch(type){
+					case plus.barcode.QR:
+					text = 'QR: ';
+					break;
+					case plus.barcode.EAN13:
+					text = 'EAN13: ';
+					break;
+					case plus.barcode.EAN8:
+					text = 'EAN8: ';
+					break;
+				}
+			 		alert( text+result );
+			        plus.runtime.openURL("http://baidu.com/input="+result);
+				    
+			}
+			function startScan() {
+				scan = new plus.barcode.Barcode('bcid');
+				scan.onmarked = onmarked; 
+				scan.start();
+			}
+			function cancelScan() {
+				scan.cancel();
+			}
+			function setFlash() {
+				scan.setFlash(true);
+			}
+			function open1(){
+				$(".open1").css("display","none");
+				$(".close1").css("display","block");
+				scan.setFlash(true);
+				
+			}
+			function close1(){
+				$(".open1").css("display","block");
+				$(".close1").css("display","none");
+				scan.setFlash(false);
+				
+			}
+			function closeme(){
+//				var ws=plus.webview.currentWebview();
+//				plus.webview.close(ws);
+				var w = plus.webview.open( "index.html" );
+					 // 显示窗口
+			}
+	</script>
+	<style type="text/css">
+		html,body{
+			margin: 0px;
+			padding: 0px;
+			height: 100%;
+			font-size: 14px;
+		}
+		#bcid {
+			background:black;
+			height:100%;
+			width:100%;
+		}
+		p{
+			position: fixed;
+			bottom: 11%;
+			left: 18%;
+			color: #CCCCCC;
+		}
+		a{
+			display: inline-block;
+			position: fixed;
+			top: 3%;
+			left: 5%;
+			background-color: #565656;
+			border-radius: 1em;
+			text-decoration: none;
+			padding: 0.1em;
+		}
+		a:hover,a:focus{
+			text-decoration: none;
+			color: #565656;
+		}
+		img{
+			width: 2em;
+			height: 2em;
+		}
+		span{
+			padding: 0.1em;
+			position: fixed;
+			top: 3%;
+			right: 5%;
+			background-color: #565656;
+			border-radius: 1em;
+		}
+		.close1{
+			display: none;
+		}
+	</style>
+	</head>
+	<body>
+		<a onclick="closeme()"><img src="img/Bcode_back.png"/></a>
+		<span class="close1" onclick="close1()"><img src="img/flash_close.png" alt="" /></span>
+		<span class="open1" onclick="open1()"><img src="img/flash_open.png"/></span>
+		<div id="bcid"></div>
+		<p>将二维码/条码放入框内，即可自动扫描</p>
+	</body>
+</html>

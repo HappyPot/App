@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>丑团首页</title>
+		<link rel="stylesheet" href="css/index/common.css" />
+		<link rel="stylesheet" href="css/index/wl_menu.css" />
+		<link rel="stylesheet" href="css/index/wl_food.css" />
+		<link rel="stylesheet" href="css/index/nav.css" />
+		<link rel="stylesheet" href="css/index/QR.css" />
+		<link rel="stylesheet" href="css/index/gm.css" />
+		<link rel="stylesheet" href="css/index/foodbanner.css"/>
+		<link rel="stylesheet" href="css/index/cut.css" />
+		<link rel="stylesheet" href="css/index/activity.css" />
+		<link rel="stylesheet" href="css/index/sales.css" />
+		<link rel="stylesheet" href="css/index/fix_footer.css" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="swiper/css/swiper-3.4.0.min.css">
+		<script src="js/index/jquery-3.1.0.min.js"></script>
+		<script src="js/index/nav.js"></script>
+		<script src="js/index/QR.js"></script>
+		<script src="js/index/gm.js"></script>
+		<script src="js/index/time.js"></script>
+		<script src="js/index/top.js"></script>
+		<script src="js/index/wl_index.js"></script>
+		<script src="swiper/js/swiper-3.4.0.min.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+	</head>
+
+	<body>
+		<!--导航开始-->
+		<nav class="container-fluid">
+			<div class="geolocaltion">
+				<span>大连</span>
+				<span class="glyphicon glyphicon-chevron-down" id="geo_icon"></span>
+			</div>
+			<div class="search">
+				<input type="search" name="" id="" placeholder="搜索商家，品类或商圈" />
+			</div>
+			<div class="Ecode">
+				<span class="glyphicon glyphicon-qrcode"></span>
+			</div>
+			<div class="message">
+				<span class="glyphicon glyphicon-envelope"></span>
+			</div>
+		</nav>
+		<!--导航结束-->
+		<!--二维码开始-->
+		<div class="container-fluid" id="QR">
+			<div class="QR">
+				<span class="glyphicon glyphicon-qrcode"></span>
+				<a href="Bcode.html">扫一扫</a>
+			</div>
+			<div class="pay">
+				<span class="glyphicon glyphicon-barcode"></span>
+				<span>付款码</span>
+			</div>
+		</div>
+		<!--二维码结束-->
+		<!--空白填充开始-->
+		<div style="background-color: white;width: 100%;height: 3.8em;"></div>
+		<!--空白填充结束-->
+		<!--滑动菜单开始-->
+		<div class="swiper-container">
+			<div class="swiper-wrapper" id="Iicon">
+				<div id="" class="wl_menu container swiper-slide">
+					<div class="row" id="first_row">
+						<div class="col-xs-12 text-center">
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main food"></a>
+								<p>美食</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main movie"></a>
+								<p>电影</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main hotel"></a>
+								<p>酒店住宿</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main entertainment"></a>
+								<p>休闲娱乐</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="" class="wl_icon_main take-out"></a>
+								<p>外卖</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 text-center">
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main ticket"></a>
+								<p>机票/火车票</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main ktv"></a>
+								<p>KTV</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main journey"></a>
+								<p>周边游</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main beauty"></a>
+								<p>丽人</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main Attractions"></a>
+								<p>景点</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="" class="wl_menu container swiper-slide">
+					<div class="row">
+						<div class="col-xs-12 text-center" id="last_row">
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main bath"></a>
+								<p>洗浴汗蒸</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main hair"></a>
+								<p>美发</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main pedicure"></a>
+								<p>足疗按摩</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main life"></a>
+								<p>生活服务</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main fingernail"></a>
+								<p>美甲美睫</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 text-center">
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main sports"></a>
+								<p>运动健身</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main room"></a>
+								<p>密室逃脱</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main beauty_body"></a>
+								<p>美容美体</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main hotspring"></a>
+								<p>温泉</p>
+							</div>
+							<div class="wl_menu_icon_1">
+								<a href="#" class="wl_icon_main allkinds"></a>
+								<p>全部分类</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+				<span class="swiper-pagination-bullet"></span>
+				<span class="swiper-pagination-bullet"></span>
+			</div>
+		</div>
+		<!--滑动菜单结束-->
+		<!--广告活动开始-->
+		<div class="container-fluid" id="gm">
+			<div class="gm_left">
+				<p>旅游</p>
+				<p>攻略</p>
+			</div>
+			<div class="gm_right">
+				<div class="gm_right_top">
+					<span class="middle">玩法</span>
+					<a href="" class="display">去大连海边消磨时光</a>
+					<a href="" class="display_1">享受沙滩的阳光</a>
+				</div>
+				<div class="gm_right_bottom">
+					<span class="middle">游记</span>
+					<a href="" class="display">大连——一半是浪漫，一半是灿烂</a>
+					<a href="" class="display_1">世界风筝之都潍坊欢迎你</a>
+				</div>
+			</div>
+		</div>
+		<!--广告活动结束-->		
+		<!--促销开始-->
+		<div class="text-center" id="sales">
+			<div class="col-xs-4 sales sales_left">
+				<p>精选抢购</p>
+				<div class="sales_left_mid">
+					<span>距结束</span>
+					<span class="sales_time">00</span><span>:</span><span class="sales_time">40</span><span>:</span><span class="sales_time">31</span>
+				</div>
+				<div class="sales_left_bottom">
+					<p>川人百味</p>
+					<span>￥270</span>
+					<span>特价</span>
+				</div>
+			</div>
+			<div class="col-xs-4 sales sales_mid">
+				<p>一元抢宝</p>
+				<div class="sales_mid_mid">
+					<span>点击有惊喜</span>
+				</div>
+				<div>
+					<img src="img/RMB_03.jpg" class="img-responsive" />
+				</div>
+			</div>
+			<div class="col-xs-4 sales sales_right">
+				<p>每日特惠</p>
+				<div class="sales_right_mid">
+					<span>优惠折上折</span>
+				</div>
+				<div class="sales_right_bottom">
+					<p>骑士烤肉王</p>
+					<span>￥49.9</span>
+					<span>限时</span>
+				</div>
+			</div>
+		</div>
+		<!--促销结束-->
+		<!--活动开始-->
+		<div id="activity" class="container-fluid">
+			<div class="activity activity_top">
+				<div class="activity_top_left col-xs-6">
+					<div class="activity_1">
+						<span>周三半价</span>
+						<p>人人抢5折</p>
+						<span>限时</span>
+					</div>
+					<div class="activity_2">
+						<img src="img/act_06.jpg"/>
+					</div>
+				</div>
+				<div class="activity_top_left col-xs-6">
+					<div class="activity_1">
+						<span style="color: #3a3a3a;">会员秒杀</span>
+						<p>免费电影票</p>
+						<span style="border: 1px solid #eca939;color: #eca939 ;">会员日</span>
+					</div>
+					<div class="activity_2">
+						<img src="img/act_03.jpg"/>
+					</div>
+				</div>
+			</div>
+			<div class="activity activity_top">
+				<div class="activity_top_left col-xs-6">
+					<div class="activity_1">
+						<span style="color: #3a3a3a;">惠看热片</span>
+						<p>十四块九起</p>
+						<span style="border: 1px solid #08c2ac;color: #08c2ac ;">特价</span>
+					</div>
+					<div class="activity_2">
+						<img src="img/act_10.jpg"/>
+					</div>
+				</div>
+				<div class="activity_top_left col-xs-6">
+					<div class="activity_1">
+						<span style="color: #fd0300;">雪地酒店</span>
+						<p>热力推荐</p>
+						<span style="border: 1px solid #fd0300;color: #fd0300;">周边</span>
+					</div>
+					<div class="activity_2">
+						<img src="img/act_11.jpg"/>
+					</div>
+				</div>
+			</div>
+			<div class="activity activity_bottom">
+				<div class="activity_bottom_1 col-xs-3 text-center">
+					<div class="activity_bottom_1_1">
+						<span>签到有礼</span>
+						<p>限量换卷</p>
+					</div>
+					<div class="activity_bottom_1_2">
+						<img src="img/act_15.jpg" alt="" />
+					</div>
+				</div>
+				<div class="activity_bottom_1 col-xs-3 text-center">
+					<div class="activity_bottom_1_1">
+						<span>外卖特价</span>
+						<p>全场1元起</p>
+					</div>
+					<div class="activity_bottom_1_2">
+						<img src="img/act_17.jpg" alt="" />
+					</div>
+				</div>
+				<div class="activity_bottom_1 col-xs-3 text-center">
+					<div class="activity_bottom_1_1">
+						<span>味蕾冒险</span>
+						<p>每周荐新品</p>
+					</div>
+					<div class="activity_bottom_1_2">
+						<img src="img/act_20.jpg" alt="" />
+					</div>
+				</div>
+				<div class="activity_bottom_1 col-xs-3 text-center">
+					<div class="activity_bottom_1_1">
+						<span>温泉洗浴</span>
+						<p>开沐1折起</p>
+					</div>
+					<div class="activity_bottom_1_2">
+						<img src="img/act_23.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--活动结束-->
+		<!--美食轮播开始-->
+		<div id="foodbanner">
+			<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">
+		        	<img src="img/foodbanner_06.jpg" alt="" class="img-responsive"/>
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="img/foodbanner_03.jpg" alt="" class="img-responsive"/>
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="img/foodbanner_08.jpg" alt="" class="img-responsive"/>
+		        </div>
+		    </div>
+	    	<div class="swiper-pagination" style="background: none;"></div>		
+			</div>
+		</div>
+		<!--美食轮播结束-->
+		<!--分割文字开始-->
+		<div id="cut_off">
+			<small></small>
+			<span class="glyphicon glyphicon-heart"></span>
+			<p>猜你喜欢</p>
+			<small></small>
+		</div>
+		<!--分割文字结束-->
+		<!--猜你喜欢开始-->
+		<div class="container" id="wl_food">
+			<a href="fooddetails.html" class="row wl_hover">
+				<!--美食图片-->
+				<div class="col-xs-3">
+					<img src="img/food.jpg" alt="" class="img-responsive" />
+				</div>
+				<!--美食详情-->
+				<div class="col-xs-9">
+					<div class="wl_stor">
+						<span>鼎香缘自助火锅</span>
+						<span>1.4km</span>
+					</div>
+					<div class="wl_position">
+						<p><span>[甘井子区等]</span>自助午餐</p>
+					</div>
+					<div class="wl_price">
+						<span>￥59.9</span>
+						<span class="wl_new">新客减12</span>
+						<span>已售58134</span>
+					</div>
+				</div>
+			</a>
+			<a href="fooddetails.html" class="row wl_hover">
+				<!--美食图片-->
+				<div class="col-xs-3">
+					<img src="img/food2.jpg" alt="" class="img-responsive" />
+				</div>
+				<!--美食详情-->
+				<div class="col-xs-9">
+					<div class="wl_stor">
+						<span>BOOMBOOM肉蟹煲</span>
+						<span>1.4km</span>
+					</div>
+					<div class="wl_position">
+						<p><span>[万达广场]</span>肉蟹煲两人套餐，提供免费WIFI</p>
+					</div>
+					<div class="wl_price">
+						<span>￥109</span>
+						<span class="wl_new">新客减12</span>
+						<span>已售6402</span>
+					</div>
+				</div>
+			</a>
+			<a href="fooddetails.html" class="row wl_hover">
+				<!--美食图片-->
+				<div class="col-xs-3">
+					<img src="img/food3.jpg" alt="" class="img-responsive" />
+				</div>
+				<!--美食详情-->
+				<div class="col-xs-9">
+					<div class="wl_stor">
+						<span>撸啊撸串串香</span>
+						<span>1.4km</span>
+					</div>
+					<div class="wl_position">
+						<p><span>[沙河口区]</span>双人套餐，包间免费</p>
+					</div>
+					<div class="wl_price">
+						<span>￥69</span>
+						<span class="wl_new">新客减12</span>
+						<span>已售3236</span>
+					</div>
+				</div>
+			</a>
+			<a href="fooddetails.html" class="row wl_hover">
+				<!--美食图片-->
+				<div class="col-xs-3">
+					<img src="img/food4.jpg" alt="" class="img-responsive" />
+				</div>
+				<!--美食详情-->
+				<div class="col-xs-9">
+					<div class="wl_stor">
+						<span>海味当家</span>
+						<span>1.4km</span>
+					</div>
+					<div class="wl_position">
+						<p><span>[软件园/数码广场等]</span>50元店庆代金卷</p>
+					</div>
+					<div class="wl_price">
+						<span>￥1</span>
+						<span class="wl_new">新客减12</span>
+						<span>已售294</span>
+					</div>
+				</div>
+			</a>
+			<a href="" class="row wl_hover">
+				<!--美食图片-->
+				<div class="col-xs-3">
+					<img src="img/food5.jpg" alt="" class="img-responsive" />
+				</div>
+				<!--美食详情-->
+				<div class="col-xs-9">
+					<div class="wl_stor">
+						<span>City1+1城市披萨</span>
+						<span>1.4km</span>
+					</div>
+					<div class="wl_position">
+						<p><span>[中山区]</span>45元代金券1张，全场通用，可叠加使用</p>
+					</div>
+					<div class="wl_price">
+						<span>￥40</span>
+						<span class="wl_new">新客减12</span>
+						<span>已售6402</span>
+					</div>
+				</div>
+			</a>
+			<a href="" class="row wl_hover">
+				<!--美食图片-->
+				<div class="col-xs-3">
+					<img src="img/food6.jpg" alt="" class="img-responsive" />
+				</div>
+				<!--美食详情-->
+				<div class="col-xs-9">
+					<div class="wl_stor">
+						<span>鼎香缘自助火锅</span>
+						<span>1.4km</span>
+					</div>
+					<div class="wl_position">
+						<p><span>[甘井子区等]</span>自助午餐</p>
+					</div>
+					<div class="wl_price">
+						<span>￥59.9</span>
+						<span class="wl_new">新客减12</span>
+						<span>已售6402</span>
+					</div>
+				</div>
+			</a>
+			<a href="" class="row wl_hover">
+				<!--美食图片-->
+				<div class="col-xs-3">
+					<img src="img/food.jpg" alt="" class="img-responsive" />
+				</div>
+				<!--美食详情-->
+				<div class="col-xs-9">
+					<div class="wl_stor">
+						<span>鼎香缘自助火锅</span>
+						<span>1.4km</span>
+					</div>
+					<div class="wl_position">
+						<p><span>[甘井子区等]</span>自助午餐</p>
+					</div>
+					<div class="wl_price">
+						<span>￥59.9</span>
+						<span class="wl_new">新客减12</span>
+						<span>已售6402</span>
+					</div>
+				</div>
+			</a>
+			<a href="#" target="_self" class="row wl_hover text-center">
+				<p>已经没有啦,回到顶部</p>
+				<div style="background-color: white;height: 4em;width: 100%;"></div>
+			</a>
+		</div>
+		<!--猜你喜欢结束-->
+		<!--固定底部开始-->
+		<div id="fix_footer" class="container">
+			<a href="#" class="col-xs-4" id="nav_top">
+				<img src="img/group.png" alt="" class="img-responsive" />
+				<span>团购</span>
+			</a>
+			<a href="home_Order.html" class="col-xs-4">
+				<img src="img/order.png" alt="" class="img-responsive" />
+				<span>订单</span>
+			</a>
+			<a href="home_username.html" class="col-xs-4">
+				<img src="img/my.png" alt="" class="img-responsive" />
+				<span>我的</span>
+			</a>
+		</div>
+		<!--固定底部结束-->
+	</body>
+</html>

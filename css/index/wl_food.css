@@ -1,0 +1,56 @@
+#wl_food{
+	background-color: white;
+}
+#wl_food a{
+	text-decoration: none;
+	display: block;
+	background-color: white;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	border-bottom: 1px solid #f6f6f6;
+}
+.wl_stor span:first-child{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #333333;
+}
+.wl_stor span:last-child{
+	font-size: 1em;
+	color: #adadad;
+	float: right;
+}
+.wl_position p,.wl_position p span{
+	font-size: 1em;
+	color: #adadad;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+.wl_price span:first-child{
+	font-size: 1.5em;
+	color: #08c2ac;
+	font-weight: bold;
+}
+.wl_new{
+	display: inline-block;
+	font-size: 0.8em;
+	color: #ebb874;
+	padding: 0px 2px;
+	border: 1px solid #ebb874;
+	border-radius: 3px;
+	vertical-align: top;
+}
+.wl_price span:last-child{
+	font-size: 1em;
+	color: #adadad;
+	float: right;
+}
+.wl_price{
+	line-height: 1em;
+}
+#wl_food .col-xs-3{
+	padding-right: 0px;
+}
+#wl_food .col-xs-9{
+	padding-left: 0.5em;
+}
